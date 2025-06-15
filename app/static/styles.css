@@ -1,0 +1,59 @@
+/* Root styles */
+body {
+  background-color: #FDFDFD;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Landing container */
+.landing-container {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.main-title {
+  font-size: 1.9rem;
+  color: #3D6BB6;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1rem;
+  color: #0E5F99;
+  margin-bottom: 30px;
+}
+
+/* Start Button */
+.start-button {
+  background-color: #FAE452;
+  color: #3C2A99;
+  padding: 12px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #fdd83b;
+}

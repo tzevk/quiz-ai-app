@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piping Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="landing-container">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="QuizAI Logo" class="logo" />
+    <h1 class="main-title">Piping Quiz</h1>
+    <p class="subtitle">Test your knowledge. Stay focused. Stay honest.</p>
+    <a href="/login" class="start-button">Start Quiz</a>
+  </div>
+</body>
+</html>
