@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructions | Piping Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="progress-indicator">
+  <span class="step active">1</span>
+  <span class="line"></span>
+  <span class="step current">2</span>
+  <span class="line"></span>
+  <span class="step">3</span>
+</div>
+
+    <div class="card">
+<h1 class="title">Quiz Instructions</h1>
+
+<div class="user-info-box">
+  <div class="info-row"><span class="label">Name:</span> {{ user.name }}</div>
+  <div class="info-row"><span class="label">Program:</span> {{ user.program }}</div>
+  <div class="info-row"><span class="label">Batch:</span> {{ user.batch }}</div>
+</div>
+
+<ul class="instructions-list">
+  <li>This quiz consists of <strong>50 questions</strong>.</li>
+  <li>You have <strong>60 minutes</strong> to complete the quiz.</li>
+  <li>Each question has one correct answer. <strong>No negative marking.</strong></li>
+  <li><strong>Switching tabs may lead to disqualification.</strong></li>
+  <li>Click the button below when you're ready to begin.</li>
+</ul>
+
+<a href="/quiz" class="cta-button">Start Quiz</a>
+    </div>
+        <footer class="footer">© 2025 Suvidya Institute of Technology</footer>
+  </div>
+</body>
+</html>

@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Piping Quiz</title>
+  <title>Piping Engineering Quiz</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-  <div class="landing-container">
-    <img src="{{ url_for('static', filename='logo.png') }}" alt="QuizAI Logo" class="logo" />
-    <h1 class="main-title">Piping Quiz</h1>
-    <p class="subtitle">Test your knowledge. Stay focused. Stay honest.</p>
-    <a href="/login" class="start-button">Start Quiz</a>
+  <div class="container">
+    <div class="card animate">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="SIT Logo" class="logo" />
+      <h1 class="title">PIPING QUIZ</h1>
+      <p class="subtitle">Test your knowledge.</p>
+      <a href="/login" class="start-btn" aria-label="Start Quiz">Start Quiz</a>
+    </div>
+    <footer class="footer">© 2025 Suvidya Institute of Technology</footer>
   </div>
 </body>
 </html>
